@@ -22,3 +22,19 @@ We may install the prerequisites as follows but tweaks may be required.
 ```shell
 pip install -r requirements.txt
 ```
+
+### Installing
+
+```shell
+make docs
+```
+
+### Browsing
+
+```shell
+firefox public/index.html
+```
+
+### Links
+
+* The [GitHub Pages](https://remexemer.github.io/fsic_note)
