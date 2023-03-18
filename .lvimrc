@@ -1,0 +1,9 @@
+let b:ale_fixers = {
+      \ 'python': ['isort', 'yapf', 'trim_whitespace'],
+      \   'c': ['clang-format'],
+      \   'cpp': ['clang-format'],
+      \   'asciidoc': ['trim_whitespace'],
+      \   'rst': ['trim_whitespace'],
+      \   'markdown': ['trim_whitespace'],
+      \ }
+let b:ale_fix_on_save = 1
